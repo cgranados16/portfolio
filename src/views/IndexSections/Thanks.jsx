@@ -4,7 +4,6 @@ import React from "react";
 import {
   Container,
   Row,
-  Col,
 } from "reactstrap";
 
 class ThanksSection extends React.Component {
