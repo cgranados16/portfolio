@@ -167,7 +167,7 @@ class PortfolioSection extends React.Component {
                       href="https://github.com/cgranados16/Sequence"
                       target="_blank"
                     >
-                      <i className="fab fa-github icon-bulb-63" /> Check it on GitHub!
+                      <i className="fab fa-github" /> Check it on GitHub!
                     </Button>
                   </div>
                 </Col>
