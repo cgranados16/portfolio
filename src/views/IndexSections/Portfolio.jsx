@@ -76,7 +76,7 @@ class PortfolioSection extends React.Component {
                   <h1 className="profile-title text-left">Forest Report Application</h1>
                   
                   <p className="profile-description text-left">
-                  Automatization and digitalization of SINAC(National System of Conservation Areas)'s forms when reporting forest damage. 
+                  Automation and digitization of SINAC(National System of Conservation Areas)'s forms when reporting forest damage. 
                   Officers must be able to capture information even in areas where there is no signal, so the mobile app is being developed according to the principles of <a href='https://developer.chrome.com/apps/offline_apps'>Offline First</a>.
                   It also uses a GIS capable database for storing related geographic data. 
                   </p>
