@@ -38,34 +38,34 @@ class AboutSection extends React.Component {
         
         <Slider {...settings}>
             <div>
-                <i class="devicon-html5-plain-wordmark portfolio-icon"></i>
+                <i className="devicon-html5-plain-wordmark portfolio-icon"></i>
             </div>
             <div>
-                <i class="devicon-css3-plain-wordmark portfolio-icon"></i>
+                <i className="devicon-css3-plain-wordmark portfolio-icon"></i>
             </div>
             <div>
-                <i class="devicon-javascript-plain portfolio-icon"></i>
+                <i className="devicon-javascript-plain portfolio-icon"></i>
             </div>
             <div>
-                <i class="devicon-php-plain portfolio-icon"></i>
+                <i className="devicon-php-plain portfolio-icon"></i>
             </div>
             <div>
-                <i class="devicon-mysql-plain-wordmark portfolio-icon"></i>
+                <i className="devicon-mysql-plain-wordmark portfolio-icon"></i>
             </div>
             <div>
-                <i class="devicon-react-original portfolio-icon"></i>
+                <i className="devicon-react-original portfolio-icon"></i>
             </div>
             <div>
-                <i class="devicon-nodejs-plain portfolio-icon"></i>
+                <i className="devicon-nodejs-plain portfolio-icon"></i>
             </div>
             <div>
-                <i class="devicon-github-original portfolio-icon"></i>
+                <i className="devicon-github-original portfolio-icon"></i>
             </div>
             <div>
-                <i class="devicon-python-plain-wordmark portfolio-icon"></i>
+                <i className="devicon-python-plain-wordmark portfolio-icon"></i>
             </div>
             <div>
-                <i class="devicon-cplusplus-line-wordmark portfolio-icon"></i>
+                <i className="devicon-cplusplus-line-wordmark portfolio-icon"></i>
             </div>
            
         </Slider>

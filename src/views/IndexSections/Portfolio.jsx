@@ -83,7 +83,7 @@ class PortfolioSection extends React.Component {
                   Automatization and digitalization of SINAC(National System of Conservation Areas)'s forms when reporting forest damage.
                   </p>
                   <Row className="justify-content-between align-items-center">
-                    <i class="devicon-cplusplus-line-wordmark portfolio-icon"></i>
+                    <i className="devicon-cplusplus-line-wordmark portfolio-icon"></i>
                   </Row>
                   <div className="btn-wrapper pt-3">
                       <Button
@@ -106,14 +106,15 @@ class PortfolioSection extends React.Component {
                   <h1 className="profile-title text-left">CultivosCR</h1>
                   <p className="profile-description text-left">
                   A social network where you can sell and look for seeds, trees, fruits and vegetables. You can search for gardens around you and start buying or you can start growing your own products and selling it through the app. The idea is to grow up a community of people who cares about the planet and plants their own food.
-                  <p >Multi-language, Google Maps, social network.</p>
-                  Due to course requiments we used a private repo for this project. :(
                   </p>
+                  <p>Multi-language, Google Maps, social network.</p>
+                  <b>Due to course requiments we used a private repo for this project. :(</b>
+                  
                   <Row className="justify-content-between align-items-center">
-                    <i class="devicon-php-plain portfolio-icon"></i>
-                    <i class="devicon-laravel-plain-wordmark portfolio-icon"></i>
-                    <i class="devicon-mysql-plain-wordmark portfolio-icon"></i>
-                    <i class="devicon-apache-plain-wordmark portfolio-icon"></i>
+                    <i className="devicon-php-plain portfolio-icon"></i>
+                    <i className="devicon-laravel-plain-wordmark portfolio-icon"></i>
+                    <i className="devicon-mysql-plain-wordmark portfolio-icon"></i>
+                    <i className="devicon-apache-plain-wordmark portfolio-icon"></i>
                   </Row>
                   {/* <div className="btn-wrapper pt-3">
                     <Button
@@ -149,7 +150,7 @@ class PortfolioSection extends React.Component {
                    Made with C++ and Qt.
                   </p>
                   <Row className="justify-content-between align-items-center">
-                    <i class="devicon-cplusplus-line-wordmark portfolio-icon"></i>
+                    <i className="devicon-cplusplus-line-wordmark portfolio-icon"></i>
                   </Row>
                   <div className="btn-wrapper pt-3">
                      {/* <Button

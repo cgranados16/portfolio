@@ -217,6 +217,7 @@ class ComponentsNavbar extends React.Component {
                   <p className="d-lg-none d-xl-none">Instagram</p>
                 </NavLink>
               </NavItem>
+              
              
              
             </Nav>
