@@ -18,56 +18,14 @@ class Footer extends React.Component {
       <footer className="footer">
         <Container>
           <Row>
-            <Col md="3">
+            <Col md="2">
               <h1 className="title">CG•</h1>
             </Col>
-            <Col md="3">
-              <Nav>
-                <NavItem>
-                  <NavLink to="/" tag={Link}>
-                    Home
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/landing-page" tag={Link}>
-                    Landing
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/register-page" tag={Link}>
-                    Register
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/profile-page" tag={Link}>
-                    Profile
-                  </NavLink>
-                </NavItem>
-              </Nav>
-            </Col>
-            <Col md="3">
-              <Nav>
-                <NavItem>
-                  <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
-                    Contact Us
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
-                    About Us
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
-                    Blog
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="https://opensource.org/licenses/MIT">
-                    License
-                  </NavLink>
-                </NavItem>
-              </Nav>
+            <Col md="7">
+            <Row>
+            {/* <p>Page made in React Native</p> */}
+            </Row>
+              
             </Col>
             <Col md="3">
               <h3 className="title">Contact me:</h3>
@@ -75,11 +33,11 @@ class Footer extends React.Component {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://twitter.com/creativetim"
+                  href="https://github.com/cgranados16"
                   id="tooltip622135962"
                   target="_blank"
                 >
-                  <i className="fab fa-twitter" />
+                  <i className="fab fa-github" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip622135962">
                   Follow us
@@ -87,7 +45,7 @@ class Footer extends React.Component {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com/cgranadosa16"
                   id="tooltip230450801"
                   target="_blank"
                 >
@@ -99,11 +57,11 @@ class Footer extends React.Component {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://dribbble.com/creativetim"
+                  href="https://www.instagram.com/cgranados16"
                   id="tooltip318450378"
                   target="_blank"
                 >
-                  <i className="fab fa-dribbble" />
+                  <i className="fab fa-instagram" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip318450378">
                   Follow us

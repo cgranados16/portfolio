@@ -18,8 +18,8 @@ class PageHeader extends React.Component {
           <div className="content-center">
           <Row>
             <Col xs="8">
-              <h1 className="text-white">Carlos Granados</h1>
-              <h3 className="d-none d-sm-block">
+              <h1 className="text-white title header title">Carlos Granados</h1>
+              <h3 className="d-none d-sm-block header sub">
                Computer Engineer
               </h3>
             </Col>

@@ -22,7 +22,7 @@ class AboutSection extends React.Component {
   };
     return (
         <div className="section section-basic" id="about-section">
-        {/* <img alt="..." className="path" src={require("assets/img/path1.png")} /> */}
+        {/* <img alt="..." className="path" src={require("assets/img/path4.png")} /> */}
         <Container>
           <h2 className="title">A little bit about me </h2>
           <h4>Hello, my name is Carlos Andrés Granados Ureña. I'm a Computer Engineering student at Costa Rica Institute of Technology(TEC). 
