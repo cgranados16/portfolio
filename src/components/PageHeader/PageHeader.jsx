@@ -22,7 +22,7 @@ class PageHeader extends React.Component {
               <h3 className="d-none d-sm-block header sub">
                Computer Engineer
               </h3>
-              <a href="https://drive.google.com/open?id=1W1NLYseEF7yDwqmUdUg8LOGoR4WeJ1m6" target="_blank">
+              <a href="https://drive.google.com/open?id=1W1NLYseEF7yDwqmUdUg8LOGoR4WeJ1m6" target="_blank" rel="noopener noreferrer">
               <Button
                   className="d-none d-lg-block header button"
                   color="default"
