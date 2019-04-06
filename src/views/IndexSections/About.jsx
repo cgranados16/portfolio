@@ -50,6 +50,9 @@ class AboutSection extends React.Component {
                 <i className="devicon-php-plain portfolio-icon"></i>
             </div>
             <div>
+                <i className="devicon-laravel-plain-wordmark portfolio-icon"></i>
+            </div>
+            <div>
                 <i className="devicon-mysql-plain-wordmark portfolio-icon"></i>
             </div>
             <div>
