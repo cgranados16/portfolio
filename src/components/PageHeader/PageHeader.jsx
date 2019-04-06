@@ -38,7 +38,7 @@ class PageHeader extends React.Component {
                 <img
                   alt="..."
                   className="img-fluid rounded-circle shadow-lg"
-                  src='https://scontent.fsyq3-1.fna.fbcdn.net/v/t1.0-9/49348842_2244124092576436_9102186824473772032_n.jpg?_nc_cat=108&_nc_ht=scontent.fsyq3-1.fna&oh=9fecf2732c912b262c5f7f5276e35463&oe=5D377E50'
+                  src={require('assets/img/header-image.jpg')}
                 />
             </Col>
           </Row>

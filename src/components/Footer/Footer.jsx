@@ -25,7 +25,7 @@ class Footer extends React.Component {
             </Col>
             <Col md="3">
               <h3 className="title">Contact me:</h3>
-              <div className="btn-wrapper profile">
+              <div className="btn-wrapper profile ">
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
@@ -36,31 +36,19 @@ class Footer extends React.Component {
                   <i className="fab fa-github" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip622135962">
-                  Follow us
+                  GitHub
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://www.facebook.com/cgranadosa16"
+                  href="https://www.linkedin.com/in/cgranados16/"
                   id="tooltip230450801"
                   target="_blank"
                 >
-                  <i className="fab fa-facebook-square" />
+                  <i className="fab fa-linkedin" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip230450801">
-                  Like us
-                </UncontrolledTooltip>
-                <Button
-                  className="btn-icon btn-neutral btn-round btn-simple"
-                  color="default"
-                  href="https://www.instagram.com/cgranados16"
-                  id="tooltip318450378"
-                  target="_blank"
-                >
-                  <i className="fab fa-instagram" />
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip318450378">
-                  Follow us
+                  LinkedIn
                 </UncontrolledTooltip>
               </div>
             </Col>

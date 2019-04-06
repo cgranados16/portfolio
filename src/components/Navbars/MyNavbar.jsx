@@ -196,30 +196,15 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.facebook.com/profile.php?id=100009366026046"
+                  href="https://www.linkedin.com/in/cgranados16/"
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="Facebook"
+                  title="LinkedIn"
                 >
-                  <i className="fab fa-facebook-square" />
-                  <p className="d-lg-none d-xl-none">Facebook</p>
+                  <i className="fab fa-linkedin" />
+                  <p className="d-lg-none d-xl-none">LinkedIn</p>
                 </NavLink>
-              </NavItem>
-              <NavItem className="p-0">
-                <NavLink
-                  data-placement="bottom"
-                  href="https://www.instagram.com/cgranados16"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  title="Instagram"
-                >
-                  <i className="fab fa-instagram" />
-                  <p className="d-lg-none d-xl-none">Instagram</p>
-                </NavLink>
-              </NavItem>
-              
-             
-             
+              </NavItem>           
             </Nav>
           </Collapse>
         </Container>

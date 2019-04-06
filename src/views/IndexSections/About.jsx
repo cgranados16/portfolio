@@ -34,7 +34,7 @@ class AboutSection extends React.Component {
 
 
         <h3 className="title">Experience</h3>
-        <h4>I have worked with the following languages and tools:</h4>
+        <h4>I have experience with the following languages and tools:</h4>
         
         <Slider {...settings}>
             <div>

@@ -67,7 +67,7 @@ class PortfolioSection extends React.Component {
         <img alt="..." className="path" src={require("assets/img/path2.png")} />
         <Container>
           <h2 className="title">Portfolio</h2>
-          <h4>These are some of the projects I have work for in my courses at TEC. I will try to upload live demos in the future.</h4>
+          <h4>These are some of the projects I have worked for in my courses at TEC. I will try to upload live demos in the future.</h4>
         </Container>
           <div className="section">
             <Container>
