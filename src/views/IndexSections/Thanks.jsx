@@ -29,7 +29,7 @@ class ThanksSection extends React.Component {
         <img alt="..." className="path" src={require("assets/img/path3.png")} />
         <Container >
           <h2 className="title">You have reached this far</h2>
-          <h4>I hope you liked my work. Here is a random dog image to brighten up your day.</h4>          
+          <h4>I hope you like my work. Here is a random dog image to brighten up your day.</h4>          
           <small className="d-block text-uppercase font-weight-bold mb-4">
                   Image from <a href='https://dog.ceo/dog-api/'>Dog API</a>
                 </small>
