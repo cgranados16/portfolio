@@ -1,4 +1,7 @@
 import React from "react";
+import "video-react/dist/video-react.css"; 
+import { Player } from 'video-react';
+
 
 // reactstrap components
 import {
@@ -173,6 +176,28 @@ class PortfolioSection extends React.Component {
               </Row>
             </Container>
           </div>
+          
+
+          <div className="section">
+            <Container>
+              <h1 className="profile-title text-left">A* search algorithm</h1>
+              <p className="profile-description text-left">
+                A* is a computer algorithm that is widely used in pathfinding and graph traversal, which is the process of finding a path between multiple points, called "nodes".
+                You can set the grid size and select the start and end position.
+                Made in Unity using Voice Recognition for every available command.
+              </p>
+              IA, Unity, Voice Recognition
+
+              <Player
+                playsInline
+                poster="/assets/poster.png"
+                src={require("assets/a-star.mp4")}
+                muted= 'true'
+              />  
+            </Container>
+          </div>
+
+
         </div>
     );
   }
