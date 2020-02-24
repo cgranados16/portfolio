@@ -190,7 +190,7 @@ class ComponentsNavbar extends React.Component {
                   title="GitHub"
                 >
                   <i className="fab fa-github" />
-                  <p className="d-lg-none d-xl-none">Twitter</p>
+                  <p className="d-lg-none d-xl-none">GitHub</p>
                 </NavLink>
               </NavItem>
               <NavItem className="p-0">

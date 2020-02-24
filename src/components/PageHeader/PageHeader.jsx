@@ -17,14 +17,21 @@ class PageHeader extends React.Component {
         <Container>
           <div className="content-center">
           <Row>
-            <Col xs="8" >
+            <Col xs="12" sm="4">
+                <img
+                  alt="..."
+                  className="img-fluid rounded-circle shadow-lg"
+                  src={require('assets/img/header-image.jpg')}
+                />
+            </Col>
+            <Col xs="12" sm="8">
               <h1 className="text-white title header title">Carlos Granados</h1>
               <h3 className="d-none d-sm-block header sub">
                Computer Engineer
               </h3>
               <a href="https://drive.google.com/open?id=1W1NLYseEF7yDwqmUdUg8LOGoR4WeJ1m6" target="_blank" rel="noopener noreferrer">
               <Button
-                  className="d-none d-lg-block header button"
+                  className="d-lg-block header button"
                   color="default"
                   
                   //onClick=''
@@ -33,13 +40,6 @@ class PageHeader extends React.Component {
                 </Button>
               </a>
               
-            </Col>
-            <Col xs="4">
-                <img
-                  alt="..."
-                  className="img-fluid rounded-circle shadow-lg"
-                  src={require('assets/img/header-image.jpg')}
-                />
             </Col>
           </Row>
           
